@@ -4,15 +4,9 @@ project: scapegoat
 # Target name (should be unique within the project)
 target: sg_map
 
-# Base image to run the binary in.
-# image: ghcr.io/prateekvishnu/scapegoat:latest
-
 # List of commands used to test the target
 cmds:
 
     # Command used to start the target, "@@" is the input file
     # (when "@@" is omitted Mayhem defaults to stdin inputs)
     - cmd: /sg_map
-
- 
-
